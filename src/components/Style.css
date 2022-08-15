@@ -1,0 +1,145 @@
+/* Topbar.js */
+.top-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 45em;
+    padding: 10px 15px;
+}
+
+.icons-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 20px;
+
+}
+
+.badge-font {
+    font-size: 11px !important;
+}
+
+/* Sidebar component */
+.side-menu {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    /* transition:width .2s ease-in; */
+}
+
+.side-menu.inactive {
+    width: 80px;
+}
+
+.side-menu .top-section {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.icon-bar {
+    cursor: pointer;
+}
+
+.side-menu .main-menu .menu-list li {
+    list-style-type: none;
+
+}
+
+.side-menu .main-menu .menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 200px;
+    padding: 0;
+}
+
+.menu-heading,
+.application-heading,
+.layout-heading,
+.pages-heading,
+.component-heading {
+    color: grey;
+    text-align: left;
+    font-size: 10px;
+}
+
+.side-menu .main-menu .menu-item {
+    color: grey;
+    text-decoration: none;
+}
+
+.side-menu.inactive .main-menu .menu-list span {
+    opacity: 0;
+}
+
+.dashboard-link {
+    text-decoration: none;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.dashboard-link:active {
+    color: white;
+}
+
+.badge-text {
+    margin-left: 7em;
+    margin-top: 3px;
+}
+
+/* RESPONSIVE PART OF WEBSITE */
+@media only screen and (max-width: 768px) {
+    .link-text {
+        display: none;
+    }
+
+    .side-menu {
+        width: 10%;
+    }
+
+    .menu-heading,
+    .application-heading,
+    .layout-heading,
+    .pages-heading,
+    .component-heading {
+        font-size: 6px;
+    }
+
+    .top-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center;
+        gap:30px;
+    
+      
+    }
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .icons-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        cursor: pointer;
+        gap:5px;
+    }
+
+}
