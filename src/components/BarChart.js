@@ -1,5 +1,5 @@
 import { Bar } from "react-chartjs-2";
-import { DownOutlined, SmileOutlined } from '@ant-design/icons';
+import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Menu, Space } from 'antd';
 import './Dashboard.css'; 
 
@@ -31,7 +31,7 @@ function BarChart() {
     <div className="bar-wrapper">
       <div className="d-flex flex-row  justify-content-end ">
       <Dropdown overlay={menu}>
-                    <a onClick={(e) => e.preventDefault()} className="text-dropdown mt-0" >
+                    <a href="!#" onClick={(e) => e.preventDefault()} className="text-dropdown mt-0" >
                         <Space>
                             <b>Sort by:</b>Yearly
                             <DownOutlined />

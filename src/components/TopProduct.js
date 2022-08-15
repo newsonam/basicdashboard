@@ -1,5 +1,5 @@
 import React from 'react';
-import { DownOutlined, SmileOutlined } from '@ant-design/icons';
+import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Menu, Space } from 'antd';
 const menu = (
     <Menu
@@ -34,7 +34,7 @@ function TopProduct(props) {
                 
 
                 <Dropdown overlay={menu}>
-                    <a onClick={(e) => e.preventDefault()} className="text-dropdown mt-0" >
+                    <a href="!#" onClick={(e) => e.preventDefault()} className="text-dropdown mt-0" >
                         <Space>
                             Monthly
                             <DownOutlined />

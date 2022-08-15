@@ -29,11 +29,14 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.25%",
       "not dead",
       "not op_mini all"
     ],

@@ -32,9 +32,7 @@ const options = {
                
             },
             responsive:true,
-            animation:{
-                animateScale: true,
-                           }
+            
         }
     }
 

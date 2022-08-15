@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
-import { FaBars,FaUserAlt,FaWpforms,FaCoins,FaDatabase } from 'react-icons/fa';
+import { FaBars,FaUserAlt,FaWpforms,FaDatabase } from 'react-icons/fa';
 import {MdOutlineDashboard } from 'react-icons/md';
-import {AiOutlineCalendar,AiOutlineFileText,AiOutlineMail } from 'react-icons/ai';
+import {AiOutlineCalendar,AiOutlineMail } from 'react-icons/ai';
  import {BsChatDots } from 'react-icons/bs';
 import {TbFileInvoice } from 'react-icons/tb';
 import {BsBagDash } from 'react-icons/bs';

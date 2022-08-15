@@ -1,13 +1,11 @@
 import React from "react";
-import { DownOutlined, SmileOutlined } from '@ant-design/icons';
+import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Menu, Space } from 'antd';
 import './Dashboard.css';
 
 import { Line } from "react-chartjs-2";
-import {
-    Line as LineJS
-  
-  } from 'chart.js/auto';
+// eslint-disable-next-line no-unused-vars
+import { Line as LineJS} from 'chart.js/auto';
   const menu = (
     <Menu
         items={[
@@ -58,7 +56,7 @@ export default function LineChart() {
             <h6 className='fw-bold'>User Activity</h6>
             {/* <h6 className="text-font">Weekly</h6> */}
             <Dropdown overlay={menu}>
-                    <a onClick={(e) => e.preventDefault()} className="text-dropdown mt-0" >
+                    <a href="!#" onClick={(e) => e.preventDefault()} className="text-dropdown mt-0" >
                         <Space>
                             Weekly
                             <DownOutlined />
